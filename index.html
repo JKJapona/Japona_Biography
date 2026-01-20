@@ -4,8 +4,158 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding-bottom: 20px;
+            overflow: hidden;
+        }
+
+        h1 {
+            text-align: center;
+            color: #000;
+            margin-top: 30px;
+        }
+
+        h1:hover, h2:hover, h4:hover, h5:hover, li:hover, p:hover {
+            color: #0b2969;
+        }
+
+        h2 {
+            color: #000;
+            border-left: 5px solid rgb(51, 146, 255); 
+            margin-left: 20px;
+            border-radius: 3px;
+            padding: 12px;
+        }
+
+        h4, h5 {
+            border-left: 5px solid rgb(51, 146, 255); 
+            margin-left: 20px;
+            padding-left: 12px;
+            border-radius: 3px;
+            color: #000;
+        }
+
+        h2:hover, h4:hover, h5:hover {
+            border-left: 5px solid rgb(0, 30, 65); 
+        }
+
+        p {
+            color: #000;
+            line-height: 1.6;
+            margin: 12px 20px;
+            text-align: justify;
+            font-size: 17px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 30px;
+            object-fit: cover;
+        }
+
+        ul, ol {
+            margin-left: 40px;
+            padding-right: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+            font-size: 17px;
+        }
+
+        hr {
+            margin: 20px;
+            border: 0;
+            border-top: 1px solid #ccc;
+        }
+
+        .center {
+            text-align: center;
+            display: block;
+            margin: 20px;
+        }
+       
+        a {
+            text-decoration: none; 
+            color: rgb(59, 100, 146); 
+            font-weight: bold;
+            font-size: 20px;
+            margin: 0 15px; 
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: rgb(9, 16, 24); 
+        }
+    </style>
+
 </head>
 <body>
-    
+    <div class="container"> 
+        <h1>Japona Biography</h1>
+        <p class="center">Introductory of Myself</p>
+
+        <img src="images/japona_pic.jpg"
+        alt="Profile Picture" 
+        width="200"
+        height="200">
+
+        <div>
+            <h2>About Me</h2>
+            <p>I am Jheric Kent L. Japona, an aspiring BSIT student that has now lived in this life's 20th year.</p>
+        </div>
+
+        <div>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Eating</li>
+                <li>Sleeping</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Daily Routine</h2>
+            <ol>
+                <li>Wake Up</li>
+                <li>Eat Food</li>
+                <li>Cold Shower</li>
+                <li>Dress Up</li>
+                <li>Go to School</li>
+                <li>Go Home</li>
+                <li>Sleep Again</li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>Favorite Quotes</h2>
+            <p>
+                <em>"I think, therefore I am" - René Descartes</em>
+            </p>    
+        </div>
+
+        <div>
+            <h5>Contact Information</h5>
+            <p>You can find myself here!</p>
+        </div>
+            
+        <div class="center">
+            <a href="https://github.com/JKJapona" target="_blank">Github Profile</a>
+        </div>
+    </div>
 </body>
 </html>
